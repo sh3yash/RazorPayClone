@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a2233;
+  padding: 20px;
+  color: white;
+}
+
+.tabGroup {
+  display: flex;
+}
+
+.tab {
+  background: none;
+  border: none;
+  color: #8c8c8c;
+  padding: 10px 15px;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.tab:hover {
+  color: white;
+  color: white;
+  border-bottom: 2px solid #3474eb;
+}
+
+.tab.active {
+  color: white;
+  border-bottom: 2px solid #3474eb; /* Underline effect for the active tab */
+}
+
+.tab.new::after {
+  content: 'NEW';
+  font-size: 0.6em;
+  background-color: #3474eb;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+.payoutButton {
+  background-color: #3474eb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.payoutButton:hover {
+  background-color: #2858a0;
+}

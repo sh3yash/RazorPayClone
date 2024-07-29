@@ -1,0 +1,54 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1a2233; /* Background color to match the header */
+  color: white;
+  border-radius: 4px;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box; /* Include padding and border in width/height calculations */
+}
+
+.quickFilters {
+  display: flex;
+  align-items: center;
+}
+
+.quickFilters span {
+  margin-right: 15px;
+}
+
+.quickFilters button {
+  background: none;
+  border: 1px solid #3474eb;
+  color: #3474eb;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.quickFilters button:hover {
+  background-color: #3474eb; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+
+.quickFilters button.active {
+  background-color: #3474eb; /* Active button background */
+  color: white; /* Active button text color */
+}
+
+.moreFilters {
+  background: none;
+  border: none;
+  color: #3474eb;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.moreFilters:hover {
+  color: #2853a1; /* Darker color on hover */
+}

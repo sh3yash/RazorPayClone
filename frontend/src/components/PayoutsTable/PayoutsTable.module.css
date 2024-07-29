@@ -1,0 +1,17 @@
+.appContainer {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #1a2233;
+    color: white;
+  }
+  
+  .mainContent {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .payoutsContainer {
+    background-color: #1a2233;
+    color: white;
+  }
+  

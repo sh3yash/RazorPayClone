@@ -1,0 +1,50 @@
+.infoBanner {
+  background-color: #232b3b;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.infoBanner a {
+  color: #3474eb;
+  text-decoration: none;
+}
+
+.tableActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tableActions span {
+  color: #8c8c8c;
+}
+
+.refresh, .options {
+  background: none;
+  border: none;
+  color: #3474eb;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.payoutsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.payoutsTable th, .payoutsTable td {
+  padding: 10px;
+  border: 1px solid #2d3b50;
+  text-align: left;
+}
+
+.payoutsTable th {
+  background-color: #1a2233;
+  color: #8c8c8c;
+}
+
+.payoutsTable td {
+  background-color: #232b3b;
+}
